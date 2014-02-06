@@ -1,0 +1,29 @@
+{
+  "name": "oscurl",
+  "bin" : { "oscurl" : "./oscurl.js"},
+  "version": "0.0.0",
+  "author": {
+    "name": "Russell McClellan",
+    "email": "russell.mcclellan@gmail.com",
+    "url": "http://www.russellmcc.com"
+  },
+  "description": "simple command line utility for osc",
+  "keywords": [
+    "osc",
+    "NIME",
+    "curl"
+  ],
+  "dependencies": {
+    "osc-min": "^0.0",
+    "minimist" : "^0.0"
+  },
+  "devDependencies": {
+    "coffee-script" : "^1.3"
+  },
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "scripts" : {
+      "prepublish" : "./build.sh"
+  }
+}
