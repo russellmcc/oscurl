@@ -7,6 +7,10 @@
     "email": "russell.mcclellan@gmail.com",
     "url": "http://www.russellmcc.com"
   },
+  "repository" : {
+    "type": "git",
+    "url": "https://github.com/russellmcc/oscurl.git"
+  }
   "description": "simple command line utility for osc",
   "keywords": [
     "osc",

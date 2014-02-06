@@ -5,7 +5,7 @@ a simple command line utility for sending osc messages, much like curl.
 ## installing it
 
 1. get [`node.js`](http://nodejs.org/)
-2. run `npm install oscurl`
+2. run `npm install oscurl -g` from the command line
 
 ## using it
 
