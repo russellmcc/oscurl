@@ -18,7 +18,7 @@
     "curl"
   ],
   "dependencies": {
-    "osc-min": "~0",
+    "osc-min": "~0"
   },
   "devDependencies": {
     "coffee-script" : ">=1.3"
