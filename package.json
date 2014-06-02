@@ -1,7 +1,7 @@
 {
   "name": "oscurl",
   "bin" : { "oscurl" : "./oscurl.js"},
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "Russell McClellan",
     "email": "russell.mcclellan@gmail.com",
@@ -19,7 +19,6 @@
   ],
   "dependencies": {
     "osc-min": "~0",
-    "minimist" : "~0"
   },
   "devDependencies": {
     "coffee-script" : ">=1.3"

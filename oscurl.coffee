@@ -1,5 +1,5 @@
-opts = (require 'minimist') process.argv[2...]
-[hostport, address, val] = opts._
+opts = process.argv[2...]
+[hostport, address, val] = opts
 hostportSplit = hostport?.split?(':')
 [host, port] = hostportSplit ? []
 
